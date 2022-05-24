@@ -1,0 +1,60 @@
+*{
+    margin:0;
+
+}
+header{
+    background-image: url("./hz.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.3);
+    height: 500px;
+    padding:0 1rem;
+}
+
+.logo-nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+
+ nav a{
+    padding:3px 1rem;
+    cursor:pointer;
+}
+nav a:hover{
+    font-weight: 700;
+    }
+
+
+nav a.active{
+    padding: 5px cal(1rem-2px);
+    border:2px solid pink;
+    font-weight: 700;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 350px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color:pink;
+ }
+ .header-title h1{
+     font-size:80px;
+ }
+
+ .header-title p{
+     margin: 1rem 0;
+     font-size:60px;
+ }
+
+ .header-title div{
+     width: 220px;
+     height: 1px;
+     background-color:aliceblue;
+    }
+
